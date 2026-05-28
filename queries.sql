@@ -36,4 +36,5 @@ WHERE DATE_TRUNC('month', o.created_at) = '2024-01-01'
 AND u.id NOT IN (
     SELECT DISTINCT user_id FROM orders
     WHERE DATE_TRUNC('month', created_at) = '2024-02-01'
+	
 );
