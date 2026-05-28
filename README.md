@@ -17,7 +17,7 @@ docker compose up --build
 ```
 
 3. Το API είναι διαθέσιμο στο http://localhost:8000
-4. Документация στο http://localhost:8000/docs
+4. 4. Documentation στο http://localhost:8000/docs
 
 ## Πώς τρέχουν τα tests
 
